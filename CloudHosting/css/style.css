@@ -1,0 +1,444 @@
+body, html{
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+}
+
+.header{
+	background: #252525;
+	color: white;
+	width: 100%;
+	min-height: 70px;
+}
+
+.headersContainer{
+	width: 76%;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content:space-between;
+	align-items: center; 
+}
+
+.headerLeft{
+	display: inline-flex;
+	align-items: center;
+}
+
+.headersContainer a{
+	text-decoration: none;
+	color: white;
+	font-weight: lighter;
+}
+
+nav li{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 16px;
+	padding-left: 35px;
+	flex-direction: row;
+}
+
+.hover{
+	font-size: 1.2em;
+	text-decoration: underline;
+	font-weight: bolder;
+	transition: 0.5s;
+}
+
+#menu-icon {
+	display: none;
+	font-size: 40px;
+	padding-left: 20px;
+}
+
+
+.headersContainer ul {
+
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.iconLogo{
+	content: url("../images/logo v2.png");
+
+}
+
+
+.loginButton{
+	width: 100px;
+	height: 45px;
+	border: 1.5px solid #15cbeb;
+	color: white;
+	background-color: #252525;
+	border-radius: 22.5px;
+	font-size: 18px;
+	outline: none;
+	display: block;
+}
+.navLoginButton{
+	width: 100px;
+	height: 45px;
+	border: 1.5px solid #15cbeb;
+	color: white;
+	background-color: #252525;
+	border-radius: 22.5px;
+	font-size: 18px;
+	outline: none;
+	display: none;
+}
+
+/*-------------------------------------containerTop-------------------------------*/
+
+#containerTop{
+	width: 100%;
+	height: auto;
+	min-height: 430px;
+	background: #e4f8fe;
+	box-shadow: 1px 1px #afdfee;
+	display: inline-flex;
+
+	align-items: center;
+	justify-content: space-between;
+
+}
+.containerFluidTop{
+	height: 100%;
+	width: 88%;
+	display: flex;
+}
+
+.leftHalf{
+	display: flex;
+}
+
+
+.domainhostLogo{
+	padding-left: 1%;
+}
+
+.topText{
+	margin-left: 35px;
+	max-width: 100%;
+
+}
+
+.contactsIcon{
+	display: flex;
+    align-items: center;
+    padding-bottom: 4%;
+}
+.contactsIcon span{
+	padding-left: 10px;
+}
+
+.topText h1{
+	margin: 0;
+	font-size: 30px;
+	
+
+}
+
+
+.topText p{
+	padding-top: 4%;
+	padding-bottom: 12%;
+	margin: 0;
+	font-size: 15px;
+
+}
+
+/*---------------------------------------containerBot-------------------------------------*/
+
+#containerBot{
+	width: 76%;
+	margin: 0 auto;
+	padding-bottom: 50px;
+	padding-top: 31px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#table1{
+	width: 47.5%;
+}
+
+#table2{
+	width: 47.5%;
+}
+
+.hostingTable{
+	width: 100%;
+	height: auto;
+	border: 1px solid #afdfee; 
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-spacing: 0;
+}
+
+
+.hostingTable td{
+	border-bottom: 1px solid #afdfee; 
+}
+
+.tableHeadTD1{
+	background-color: #252525;
+	border-top-left-radius: 4px;
+	color: white;
+	font-size: 18px;
+	padding: 20px 0 20px 20px;
+}
+
+.tableHeadTD2{
+	background-color: #252525;
+	border-top-right-radius: 4px;
+	color: #15cbeb;
+	font-size: 22px;
+	font-weight: bolder;
+	text-align: right;
+	padding: 20px 20px 20px 0;
+}
+
+.tableTD1{
+	padding: 20px 0 20px 20px;
+	font-size: 16px;
+	font-weight: normal;
+	color: #080808;
+}
+
+.tableTD2{
+	text-align: right;
+	padding: 20px 20px 20px 0;
+	color: #080808;
+	font-size: 18px;
+	font-weight: bolder;
+
+}
+
+.buyBtn{
+	margin-top: 12px;
+	margin-bottom: 31px;
+	height: 50px;
+	width: 92px;
+	background: white;
+	border: 1.5px solid #16c5e3;
+	border-radius: 25px;
+	color: #16c5e3;
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	outline: none;
+}
+
+
+
+/*------------------------------footer------------------------------------------*/
+
+#footer{
+	width: 100%;
+	margin: 0 auto;
+	background: #e4f8fe;
+	border-top: 1px solid #afdfee;
+	box-shadow: 1px 1px #afdfee;
+	height: 50px;
+}
+
+.footerContainer{
+	width: 76%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	align-items: center;
+	/*overflow: auto;*/
+}
+
+#footer a{
+	color: #333333;
+	text-decoration: none;
+	font-size: 14px;
+
+
+}
+
+
+
+/*-------------------------------------------------------------------------*/
+/*---------------------------media header----------------------------------*/
+@media only screen and (max-width : 1250px) {
+	nav li{
+		padding-left: 30px;
+	}
+}
+
+@media only screen and (max-width : 1150px) {
+	nav li{
+		padding-left: 20px;
+	}
+}
+
+
+
+@media only screen and (max-width : 1000px) {
+
+	/*.headerContainer {
+
+		position: absolute;
+
+	}*/
+	.headerLeft{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#menu-icon {
+
+		display:inline-block;
+	}
+
+	.loginButton{
+		display: none;
+	}
+
+	.navLoginButton{
+		display: block;
+		margin: 0 auto;
+	}
+	nav ul, nav:active ul{ 
+
+		display: none;
+		position: absolute;
+		padding: 10px;
+		background: #252525;
+		/*border: 1px solid #444;*/
+		border-radius: 4px;
+		overflow: hidden;
+	}
+
+
+	.navbar li{
+
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+
+	}
+
+	.navbar:hover ul  {
+
+		display: block;
+
+	}
+}
+
+
+/*----------------------------------media containerBot----------------*/
+
+@media only screen and (max-width: 1024px) {
+  #containerBot{
+  	display: block;
+  }
+
+  #table1{
+  	width: 100%;
+  }
+  #table2{
+  	width: 100%;
+  }
+
+}
+
+
+/*----------------------------media--------------------------------------*/
+
+
+@media only screen and (max-width:870px) {
+  .leftHalf{
+  	display: block;
+  	width: 76%;
+  	margin: 0 auto;
+  }
+  .domainhostLogo{
+  	width: 100%;
+  }
+
+  .buyBtn{
+  	width: 82px;
+  	height: 45px;
+  	font-size: 20px;
+  }
+
+}
+
+
+@media only screen and (max-width:530px) {
+
+	.iconLogo{
+		width: 100%;
+	}
+
+	#menu-icon{
+		font-size: 35px;
+	}
+
+	nav ul, nav:active ul{
+	right: 0px;
+	top: 0px;
+	width: 100%;
+	}
+
+	.buyBtn{
+  	width: 62px;
+  	height: 40px;
+  	font-size: 16px;
+  	}
+
+ }
+
+@media only screen and (max-width:420px) {
+   /*For mobile phones: */
+   .topText{
+   	font-size: 0.8em;
+   }
+
+   .topText h1{
+   	font-size: 20px;
+   }
+
+   .tableHeadTD1{
+   		padding: 10px 0 10px 10px;
+   		font-size: 12px;
+   	} 
+
+   	.tableHeadTD2{
+   		padding: 10px 10px 10px 0;
+   		font-size: 16px;
+   	}
+
+   	.tableTD1{
+   		padding: 10px 0 10px 10px;
+   		font-size: 10px;
+   	}
+
+   	.tableTD2{
+   		padding: 10px 10px 10px 0;
+   		font-size: 12px;
+   	}
+
+   	#menu-icon{
+		font-size: 30px;
+	}
+
+	#footer{
+		height: auto;
+	}
+
+	#footer a{
+		font-size: 12px;
+	}
+
+
+}
